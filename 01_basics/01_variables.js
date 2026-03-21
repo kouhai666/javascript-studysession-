@@ -8,7 +8,7 @@ let accountstate;
 console.log(accountId, accountEmail, accountPassword, accountCity, accountstate);
 console.table([accountId, accountEmail, accountPassword, accountCity, accountstate]);
 
-//const is used to define a constant value where let a var are used to define variables that can be edited/updated layer 
+    //const is used to define a constant value where let a var are used to define variables that can be edited/updated layer 
 
 //accoundId = 963 // changes are not allowed in const variable
 
@@ -17,8 +17,8 @@ accountPassword = "kamisama"
 accountCity = "bhubaneswar" 
 
 /*
-prefer not to use var 
-because of issues in block scope and functional scope "{}"
+    prefer not to use var 
+    because of issues in block scope and functional scope "{}"
 */
 
 
